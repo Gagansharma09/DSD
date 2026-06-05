@@ -19,7 +19,7 @@ module updown_counter(
     output logic [3:0] count // Counter output
 );
   
-    /*solution 
+    solution 
     always_ff @(posedge clk or negedge rst_n) begin
         if(!rst_n)
             count <= 4'b0000;
@@ -34,7 +34,7 @@ module updown_counter(
         else 
                         count <= count;
         end
-    /*
+
 endmodule
 
 
